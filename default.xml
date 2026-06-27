@@ -55,9 +55,9 @@
   <project path="prebuilts/tradefed" name="platform/tools/tradefederation/prebuilts" clone-depth="1" remote="aosp" />
   <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" remote="aosp" />
 
-  <project path="manifest" name="LineageOS/android_kernel_google_gs-6.6_manifest" />
-  <project path="prebuilts/gki" name="LineageOS/android_kernel_google_gs-6.6_prebuilts_gki" clone-depth="1" />
-  <project path="private/devices" name="LineageOS/android_kernel_google_gs-6.6_devices">
+  <project path="manifest" name="realxyc/android_kernel_google_gs-6.6_manifest" />
+  <project path="prebuilts/gki" name="realxyc/android_kernel_google_gs-6.6_prebuilts_gki" clone-depth="1" />
+  <project path="private/devices" name="realxyc/android_kernel_google_gs-6.6_devices">
     <linkfile dest="device.bazelrc" src="google/common/device.bazelrc" />
     <linkfile dest="update_symbol_list.sh" src="google/common/update_symbol_list.sh" />
     <linkfile dest="download_prebuilts.py" src="google/common/scripts/download_prebuilts.py" />
@@ -98,5 +98,5 @@
     <linkfile dest="build_stallion.sh" src="google/stallion/build_stallion.sh" />
     <linkfile dest=".d14.bazelrc" src="google/stallion/device.bazelrc" />
   </project>
-  <project path="private/google-modules" name="LineageOS/android_kernel_google_gs-6.6_google-modules" />
+  <project path="private/google-modules" name="realxyc/android_kernel_google_gs-6.6_google-modules" />
 </manifest>
