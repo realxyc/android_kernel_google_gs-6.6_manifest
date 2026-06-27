@@ -46,9 +46,9 @@
   <project path="prebuilts/rust" name="platform/prebuilts/rust" clone-depth="1" remote="aosp" />
   <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" remote="aosp" />
 
-  <project path="manifest" name="LineageOS/android_kernel_google_gs-6.6_manifest" />
-  <project path="prebuilts/gki" name="LineageOS/android_kernel_google_gs-6.6_prebuilts_gki" clone-depth="1" />
-  <project path="private/devices" name="LineageOS/android_kernel_google_gs-6.6_devices">
+  <project path="manifest" name="realxyc/android_kernel_google_gs-6.6_manifest" />
+  <project path="prebuilts/gki" name="realxyc/android_kernel_google_gs-6.6_prebuilts_gki" clone-depth="1" />
+  <project path="private/devices" name="realxyc/android_kernel_google_gs-6.6_devices">
     <linkfile dest="AGENTS.md" src="google/common/workspace/root.AGENTS.md" />
     <linkfile dest="MODULE.bazel" src="google/common/workspace/root.MODULE.bazel" />
     <linkfile dest="common/BUILD.bazel" src="google/common/workspace/common.BUILD.bazel" />
@@ -74,5 +74,5 @@
     <linkfile dest="build_rango.sh" src="google/rango/build_rango.sh" />
     <linkfile dest="build_stallion.sh" src="google/stallion/build_stallion.sh" />
   </project>
-  <project path="private/google-modules" name="LineageOS/android_kernel_google_gs-6.6_google-modules" />
+  <project path="private/google-modules" name="realxyc/android_kernel_google_gs-6.6_google-modules" />
 </manifest>
